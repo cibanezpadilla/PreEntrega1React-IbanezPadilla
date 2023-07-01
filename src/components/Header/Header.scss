@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 10px;    
+    background-color: rgb(53, 159, 189);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding-inline: 2rem;       
+    
+    .cont_logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        .logoReactHeader{
+            width: 50px;
+        }
+
+        .logoStore {
+            width: 120px;    
+        }
+    }
+}
+
+    
+
+        

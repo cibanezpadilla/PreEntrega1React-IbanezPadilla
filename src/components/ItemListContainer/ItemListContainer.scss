@@ -1,0 +1,62 @@
+.contenedor_itemList{
+    padding: 50px;
+    background-color: rgb(35, 39, 47);
+    padding-block: 6rem;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    
+    .logoReact {  
+      margin: 0 auto;
+      margin-bottom: 50px;
+    }
+
+    h1 {   
+        text-align: center;    
+        color: #484848;
+        font-size: 2.5rem;
+        letter-spacing: 15px;
+        animation: iluminar 1s linear infinite;
+    }     
+    
+    @keyframes iluminar {
+        0% {
+          color: #484848;
+          text-shadow: none;
+        }
+        50% {
+          color: white;
+          text-shadow: 0 0 7px #ebebea, 0 0 50px #d8d7d6;
+        }
+        100% {
+          color: white;
+          text-shadow: 0 0 7px #ebebea, 0 0 50px #d8d7d6;
+        }
+    }
+
+    p {
+        font-size: 1.5rem;
+        text-align: center;
+        color: white;
+        margin-bottom: 50px;
+    }
+
+    button {
+      padding: 10px 20px;
+      color: white;
+      border: none;    
+      background-color: rgb(53, 159, 189);
+      font-size: 1.2rem;    
+      margin: 0 auto;
+      border-radius: 20px;
+      cursor: pointer;
+  }
+}
+
+
+
+
+
+
+
